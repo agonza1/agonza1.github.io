@@ -22,6 +22,21 @@ a {
   }
 }
 
+a:focus,
+button:focus,
+.btn:focus,
+.nav-link:focus,
+.navbar-brand:focus,
+.navbar-toggler:focus,
+.contact-section .social a:focus {
+  outline: 0.2rem solid $white;
+  outline-offset: 0.2rem;
+}
+
+.card a:focus {
+  outline-color: $primary;
+}
+
 .bg-black {
   background-color: $black !important;
 }
