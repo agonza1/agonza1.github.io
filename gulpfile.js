@@ -13,7 +13,7 @@ const pkg = require('./package.json');
 // Set the banner content
 const banner = ['/*!\n',
   ' * <%= pkg.title %> (<%= pkg.homepage %>)\n',
-  ' * Copyright 2024-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
+  ' * Copyright 2026 <%= pkg.author %>\n',
   ' * Based on Start Bootstrap Grayscale, licensed under <%= pkg.license %>.\n',
   ' */\n',
   '\n'

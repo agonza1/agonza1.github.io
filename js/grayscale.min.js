@@ -1,6 +1,6 @@
 /*!
  * Alberto Gonzalez Trastoy (https://agonza1.github.io/)
- * Copyright 2024-2026 Alberto Gonzalez Trastoy
+ * Copyright 2026 Alberto Gonzalez Trastoy
  * Based on Start Bootstrap Grayscale, licensed under MIT.
  */
 
