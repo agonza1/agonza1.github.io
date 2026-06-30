@@ -4,4 +4,11 @@
   p {
     margin-bottom: 5rem;
   }
+  a {
+    color: lighten($primary, 40%);
+    &:focus,
+    &:hover {
+      color: lighten($primary, 55%);
+    }
+  }
 }
