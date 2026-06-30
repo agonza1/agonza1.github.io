@@ -2,8 +2,8 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 31rem;
-  padding: 10rem 0 8rem;
+  min-height: 28rem;
+  padding: 8rem 0 5rem;
   background-image: linear-gradient(to bottom, #{fade-out($black, .1)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/communications-4.jpg');
   background-image: linear-gradient(to bottom, #{fade-out($black, .1)} 0%,#{fade-out($black, .5)} 75%,$black 100%), image-set(url('../img/communications-4.webp') type('image/webp'), url('../img/communications-4.jpg') type('image/jpeg'));
   background-position: center;
@@ -35,8 +35,8 @@
     }
   }
   @media(min-width: 992px) {
-    height: 88vh;
-    min-height: 40rem;
+    height: 72vh;
+    min-height: 34rem;
     padding: 0;
     h1 {
       font-size: 5rem;
