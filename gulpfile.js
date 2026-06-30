@@ -6,15 +6,15 @@ const gulp = require("gulp");
 const header = require("gulp-header");
 const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const uglify = require("gulp-uglify");
 const pkg = require('./package.json');
 
 // Set the banner content
 const banner = ['/*!\n',
-  ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
-  ' * Copyright 2013-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
-  ' * Licensed under <%= pkg.license %> (https://github.com/BlackrockDigital/<%= pkg.name %>/blob/master/LICENSE)\n',
+  ' * <%= pkg.title %> (<%= pkg.homepage %>)\n',
+  ' * Copyright 2024-' + (new Date()).getFullYear(), ' <%= pkg.author %>\n',
+  ' * Based on Start Bootstrap Grayscale, licensed under <%= pkg.license %>.\n',
   ' */\n',
   '\n'
 ].join('');
