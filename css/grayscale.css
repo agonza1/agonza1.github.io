@@ -1,43 +1,37 @@
 /*!
- * Start Bootstrap - Grayscale v5.0.3 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
+ * Alberto Gonzalez Trastoy (https://agonza1.github.io/)
+ * Copyright 2026 Alberto Gonzalez Trastoy
+ * Based on Start Bootstrap Grayscale, licensed under MIT.
  */
 
 #mainNav {
   min-height: 56px;
   background-color: #fff;
 }
-
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
   color: #2f6f6a;
   border: 1px solid #2f6f6a;
 }
-
 #mainNav .navbar-toggler:focus {
   outline: 0.2rem solid #2f6f6a;
   outline-offset: 0.2rem;
 }
-
 #mainNav .navbar-brand {
   color: #161616;
   font-weight: 700;
-  padding: .9rem 0;
+  padding: 0.9rem 0;
 }
-
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(white, 80%);
+  color: rgba(255, 255, 255, 0.8);
   outline: none;
   background-color: transparent;
 }
-
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
 }
-
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 0;
@@ -48,7 +42,7 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
@@ -78,7 +72,7 @@
     color: #2f6f6a;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #183937;
+    color: rgb(24.2436708861, 57.2563291139, 54.6772151899);
   }
   #mainNav.navbar-shrink .nav-link.active {
     color: #2f6f6a;
@@ -91,53 +85,52 @@
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.9)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/communications-4.png");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/communications-4.png");
+  min-height: 31rem;
+  padding: 10rem 0 8rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.9)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/communications-4.jpg");
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/communications-4.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.9)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), image-set(url("../img/communications-4.webp") type('image/webp'), url("../img/communications-4.jpg") type('image/jpeg'));
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), -webkit-image-set(url("../img/communications-4.webp") type('image/webp'), url("../img/communications-4.jpg") type('image/jpeg'));
+  background-image: linear-gradient(to bottom, rgba(22, 22, 22, 0.9) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), image-set(url("../img/communications-4.webp") type('image/webp'), url("../img/communications-4.jpg") type('image/jpeg'));
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-
 .masthead h1 {
   max-width: 48rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-size: 2.25rem;
   line-height: 2.75rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0;
   color: #fff;
   text-shadow: 0 0.125rem 0.5rem rgba(22, 22, 22, 0.7);
 }
-
 .masthead h2 {
   max-width: 42rem;
   font-size: 1rem;
 }
-
 .masthead .hero-credential {
   max-width: 38rem;
   color: rgba(255, 255, 255, 0.85);
   font-size: 1rem;
 }
-
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
     line-height: 4.5rem;
   }
 }
-
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 88vh;
+    min-height: 40rem;
     padding: 0;
   }
   .masthead h1 {
     font-size: 5rem;
     line-height: 5.5rem;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0;
   }
   .masthead h2 {
     max-width: 44rem;
@@ -149,33 +142,29 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   font-size: 80%;
   text-transform: uppercase;
-  letter-spacing: .15rem;
+  letter-spacing: 0;
   border: 0;
 }
 
 .btn-primary {
   background-color: #2f6f6a;
 }
-
 .btn-primary:hover {
-  background-color: #204b48;
+  background-color: rgb(31.8291139241, 75.1708860759, 71.7848101266);
 }
-
 .btn-primary:focus {
-  background-color: #204b48;
+  background-color: rgb(31.8291139241, 75.1708860759, 71.7848101266);
   color: white;
 }
-
 .btn-primary:focus-visible {
   outline: 0.2rem solid #fff;
   outline-offset: 0.2rem;
 }
-
 .btn-primary:active {
-  background-color: #183937 !important;
+  background-color: rgb(24.2436708861, 57.2563291139, 54.6772151899) !important;
 }
 
 .about-section {
@@ -183,98 +172,245 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
-
 .about-section p {
   margin-bottom: 5rem;
 }
-
 .about-section a {
+  color: rgb(151.0253164557, 210.9746835443, 206.2911392405);
+}
+.about-section a:focus, .about-section a:hover {
+  color: rgb(204.7689873418, 233.7310126582, 231.4683544304);
+}
+
+.portfolio-section {
+  padding: 6rem 0;
+  color: #161616;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.section-heading {
+  max-width: 52rem;
+  margin: 0 auto 3rem;
+}
+
+.section-heading h2 {
+  margin-bottom: 1rem;
+  font-family: "Varela Round";
+  font-size: 2rem;
+}
+
+.eyebrow {
+  margin-bottom: 0.75rem;
+  color: #2f6f6a;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.section-intro {
+  color: rgba(22, 22, 22, 0.65);
+  font-size: 1.05rem;
+}
+
+.client-card,
+.repo-card,
+.case-card,
+.resource-card,
+.video-card {
+  display: block;
+  background: #fff;
+  color: #161616;
+  border: 1px solid rgba(22, 22, 22, 0.1);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(22, 22, 22, 0.08);
+  box-shadow: 0 0.75rem 1.5rem rgba(22, 22, 22, 0.08);
+  -webkit-transition: border-color 0.15s ease, -webkit-transform 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: border-color 0.15s ease, -webkit-transform 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, -webkit-transform 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.client-card:hover,
+.repo-card:hover,
+.case-card:hover,
+.resource-card:hover,
+.video-card:hover,
+.client-card:focus,
+.repo-card:focus,
+.case-card:focus,
+.resource-card:focus,
+.video-card:focus {
+  color: #161616;
+  border-color: rgba(47, 111, 106, 0.55);
+  -webkit-box-shadow: 0 1rem 2rem rgba(22, 22, 22, 0.14);
+  box-shadow: 0 1rem 2rem rgba(22, 22, 22, 0.14);
+  -webkit-transform: translateY(-0.125rem);
+  transform: translateY(-0.125rem);
+}
+
+.client-card {
+  padding: 2rem;
+  text-align: center;
+}
+
+.client-card img {
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1.25rem;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.client-card h3,
+.case-card h3,
+.video-card h3 {
+  font-family: "Varela Round";
+  font-size: 1.1rem;
+}
+
+.client-card p,
+.repo-card p,
+.case-card p,
+.resource-card p {
+  margin-bottom: 0;
+  color: rgba(22, 22, 22, 0.65);
+}
+
+.repo-card img,
+.video-card img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: rgba(22, 22, 22, 0.06);
+}
+
+.repo-card-body {
+  padding: 1.25rem;
+}
+
+.repo-card span,
+.video-card span {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  color: #2f6f6a;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.repo-card h3 {
+  margin-bottom: 0.75rem;
+  font-family: "Varela Round";
+  font-size: 1rem;
+  overflow-wrap: anywhere;
+}
+
+.case-card {
+  padding: 1.75rem;
+}
+
+.case-card i {
+  margin-bottom: 1.25rem;
+  color: #2f6f6a;
+  font-size: 2rem;
+}
+
+.resource-group-title {
+  margin-bottom: 1.25rem;
+  font-family: "Varela Round";
+  font-size: 1.25rem;
+}
+
+.resource-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.resource-card i {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 2.5rem;
+  flex: 0 0 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #fff;
+  background: #2f6f6a;
+  border-radius: 50%;
+  line-height: 2.5rem;
+  text-align: center;
+}
+
+.resource-card h4 {
+  margin-bottom: 0.35rem;
+  font-family: "Varela Round";
+  font-size: 1rem;
+}
+
+.video-card {
+  background: #161616;
+  color: #fff;
+}
+
+.video-card:hover,
+.video-card:focus {
+  color: #fff;
+}
+
+.video-card span,
+.video-card h3 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.video-card span {
+  margin-top: 1rem;
   color: #97d3ce;
 }
 
-.about-section a:focus, .about-section a:hover {
-  color: #cdeae7;
+.video-card h3 {
+  padding-bottom: 1.25rem;
+  color: #fff;
 }
 
-.projects-section {
-  padding: 10rem 0;
-}
-
-.projects-section .featured-text {
-  padding: 2rem;
-}
-
-@media (min-width: 992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #2f6f6a;
+@media (max-width: 575.98px) {
+  .portfolio-section {
+    padding: 4rem 0;
+  }
+  .section-heading h2 {
+    font-size: 1.6rem;
   }
 }
-
-.projects-section .project-text {
-  padding: 3rem;
-  font-size: 90%;
-}
-
-@media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
-  .projects-section .project-text hr {
-    border-color: #2f6f6a;
-    border-width: .25rem;
-    width: 30%;
-  }
-}
-
-.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-.signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
-
 .contact-section {
   padding: 5rem 0 0;
 }
-
 .contact-section .card {
   border: 0;
   border-bottom: 0.25rem solid #2f6f6a;
 }
-
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: "Varela Round";
   text-transform: uppercase;
-  letter-spacing: 0.15rem;
+  letter-spacing: 0;
 }
-
 .contact-section .card hr {
   border-color: #2f6f6a;
   border-width: 0.25rem;
   width: 3rem;
 }
-
 .contact-section .social {
   margin-top: 5rem;
 }
-
 .contact-section .social a {
   text-align: center;
   height: 3rem;
@@ -284,28 +420,25 @@
   line-height: 3rem;
   color: #fff;
 }
-
 .contact-section .social a:hover {
   background: rgba(255, 255, 255, 0.28);
   color: #fff;
 }
-
 .contact-section .social a:active {
   color: #fff;
 }
 
 body {
-  font-family: 'Nunito';
-  letter-spacing: 0.0625em;
+  font-family: "Nunito";
+  letter-spacing: 0;
 }
 
 a {
   color: #2f6f6a;
 }
-
 a:focus, a:hover {
   text-decoration: none;
-  color: #112726;
+  color: rgb(16.6582278481, 39.3417721519, 37.5696202532);
 }
 
 a:focus,
