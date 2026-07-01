@@ -308,3 +308,67 @@
     min-height: 7rem;
   }
 }
+
+.initiative-grid {
+  align-items: stretch;
+}
+
+.initiative-card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: $white;
+  color: $black;
+  border: 1px solid fade-out($black, 0.9);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.75rem 1.5rem fade-out($black, 0.92);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.initiative-card:hover,
+.initiative-card:focus {
+  color: $black;
+  border-color: fade-out($primary, 0.45);
+  box-shadow: 0 1rem 2rem fade-out($black, 0.86);
+  transform: translateY(-0.125rem);
+}
+
+.initiative-icon {
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  background: linear-gradient(135deg, #163a37 0%, #2f6f6a 100%);
+  color: $white;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.initiative-card span {
+  margin-bottom: 0.6rem;
+  color: $primary;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.initiative-card h3 {
+  margin-bottom: 0.75rem;
+  font-family: 'Varela Round';
+  font-size: 1rem;
+}
+
+.initiative-card p {
+  flex: 1;
+  margin-bottom: 0;
+  color: fade-out($black, 0.35);
+}
+
+@media (min-width: 992px) {
+  .initiative-card {
+    min-height: 17rem;
+  }
+}

@@ -528,6 +528,90 @@
     min-height: 7rem;
   }
 }
+.initiative-grid {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.initiative-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 1.5rem;
+  background: #fff;
+  color: #161616;
+  border: 1px solid rgba(22, 22, 22, 0.1);
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(22, 22, 22, 0.08);
+  box-shadow: 0 0.75rem 1.5rem rgba(22, 22, 22, 0.08);
+  -webkit-transition: border-color 0.15s ease, -webkit-transform 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: border-color 0.15s ease, -webkit-transform 0.15s ease, -webkit-box-shadow 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease, -webkit-transform 0.15s ease, -webkit-box-shadow 0.15s ease;
+}
+
+.initiative-card:hover,
+.initiative-card:focus {
+  color: #161616;
+  border-color: rgba(47, 111, 106, 0.55);
+  -webkit-box-shadow: 0 1rem 2rem rgba(22, 22, 22, 0.14);
+  box-shadow: 0 1rem 2rem rgba(22, 22, 22, 0.14);
+  -webkit-transform: translateY(-0.125rem);
+  transform: translateY(-0.125rem);
+}
+
+.initiative-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  background: linear-gradient(135deg, #163a37 0%, #2f6f6a 100%);
+  color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1.25rem;
+}
+
+.initiative-card span {
+  margin-bottom: 0.6rem;
+  color: #2f6f6a;
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.initiative-card h3 {
+  margin-bottom: 0.75rem;
+  font-family: "Varela Round";
+  font-size: 1rem;
+}
+
+.initiative-card p {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-bottom: 0;
+  color: rgba(22, 22, 22, 0.65);
+}
+
+@media (min-width: 992px) {
+  .initiative-card {
+    min-height: 17rem;
+  }
+}
 .contact-section {
   padding: 5rem 0 0;
 }
