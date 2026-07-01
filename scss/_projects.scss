@@ -372,3 +372,48 @@
     min-height: 17rem;
   }
 }
+
+.client-logo-cloud {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.client-logo-cloud a {
+  display: flex;
+  min-height: 5.25rem;
+  align-items: center;
+  gap: 0.9rem;
+  padding: 1rem;
+  background: $white;
+  color: $black;
+  border: 1px solid fade-out($black, 0.9);
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1.25rem fade-out($black, 0.94);
+}
+
+.client-logo-cloud a:hover,
+.client-logo-cloud a:focus {
+  color: $black;
+  border-color: fade-out($primary, 0.45);
+}
+
+.client-logo-cloud img {
+  flex: 0 0 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  object-fit: contain;
+}
+
+.client-logo-cloud span {
+  font-family: 'Varela Round';
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+@media (min-width: 768px) {
+  .client-logo-cloud {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
